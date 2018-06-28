@@ -18,8 +18,3 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object 
 }
 
-a = { b: "c" }
-
-updateObjectWithKeyAndValue(a, "d", "e")
-
-console.log(a)
